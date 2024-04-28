@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Foody: Honor your appetite, health and happiness </title>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/animated.css">
+    <link href="assets/css/plugins/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/custom-boostrap.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NOTIFICATION TOAST -->
+
+    <div class="notification-toast" data-toast>
+
+        <button class="toast-close-btn" data-toast-close>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="toast-banner">
+            <img src="assets/images/image4.jpg" alt="" width="80" height="70">
+        </div>
+
+        <div class="toast-detail">
+
+            <p class="toast-message">
+                The Food is now ready
+            </p>
+
+            <p class="toast-title">
+                Egwusi soup and eba
+            </p>
+
+            <p class="toast-meta">
+                <time datetime="PT2M">36 seconds </time> ago
+                <h5 style="font-size:1rem;">659 orders</h5>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="navbar navbar-expand-lg navbar-top">
+        <div class="container-fluid navbar-top-container">
+            <div class="d-block">
+                <a class="brand-logo" href="index.html">Foody</a>
+            </div>
+            <div class="d-block">
+                <div class="social-media">
+                    <p class="mb-0 d-flex">
+                        <a href="#" class="d-flex align-items-center justify-content-center"><span class="fab fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                        <a href="#" class="d-flex align-items-center justify-content-center"><span class="fab fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                        <a href="#" class="d-flex align-items-center justify-content-center"><span class="fab fa-instagram"><i class="sr-only">Instagram</i></span></a>
+                        <a href="#" class="d-flex align-items-center justify-content-center"><span class="fab fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+
+            <form action="#" class="searchform order-lg-last">
+                <div class="form-group d-flex">
+                    <input type="text" class="form-control pl-3" placeholder="Search">
+                    <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+                </div>
+            </form>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Today's Menu</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown04">
+                            <a class="dropdown-item" href="menu.html">Morning Menu</a>
+                            <a class="dropdown-item" href="menu.html">Afternoon Menu</a>
+                            <a class="dropdown-item" href="menu.html">Night Menu</a>
+                            <a class="dropdown-item" href="menu.html">Desert</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="shop.html" class="nav-link">Catalog</a></li>
+                    <li class="nav-item"><a href="shop.html" class="nav-link">Partries</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- mobile navbar -->
+    <div class="mobile-bottom-navigation">
+
+        <a href="index.html" class="action-btn" data-mobile-menu-open-btn>
+            <i class="fas fa-home"></i>
+        </a>
+
+        <a href="cart.html" class="action-btn">
+            <i class="fas fa-shopping-cart"></i>
+
+            <span class="count">0</span>
+        </a>
+
+        <a href="#" class="action-btn">
+            <i class="fas fa-search"></i>
+        </a>
+
+        <a href="shop.html" class="action-btn" data-mobile-menu-open-btn>
+            <i class="fas fa-list-alt"></i>
+        </a>
+        <a href="login.html" class="action-btn">
+            <i class="fas fa-user"></i>
+
+        </a>
+    </div>
+    <!-- mobile navbar ends -->
+
+
+    <!-- Cart section Start -->
+    <div class="container-xl" style="margin-top:1rem;">
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Products</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/image24.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px;" alt="">
+                            </div>
+                        </th>
+                        <td>
+                            <p class="mb-0 mt-4">
+                                Big Banana
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">
+                                2.99 $
+                            </p>
+                        </td>
+                        <td>
+                            <div class="input-group quantity mt-4" style="width: 100px;">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control form-control-sm text-center border-0" value="1">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">
+                                2.99 $
+                            </p>
+                        </td>
+                        <td>
+                            <button class="btn btn-md rounded-circle bg-light border mt-4">
+                                <i class="fa fa-times text-danger"></i>
+                            </button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/image26.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px;" alt="" alt="">
+                            </div>
+                        </th>
+                        <td>
+                            <p class="mb-0 mt-4">
+                                Potatoes
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">
+                                2.99 $
+                            </p>
+                        </td>
+                        <td>
+                            <div class="input-group quantity mt-4" style="width: 100px;">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control form-control-sm text-center border-0" value="1">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">
+                                2.99 $
+                            </p>
+                        </td>
+                        <td>
+                            <button class="btn btn-md rounded-circle bg-light border mt-4">
+                                <i class="fa fa-times text-danger"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/image22.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px;" alt="" alt="">
+                            </div>
+                        </th>
+                        <td>
+                            <p class="mb-0 mt-4">
+                                Awesome Brocoli
+                            </p>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">
+                                2.99 $
+                            </p>
+                        </td>
+                        <td>
+                            <div class="input-group quantity mt-4" style="width: 100px;">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control form-control-sm text-center border-0" value="1">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="mb-0 mt-4">
+                                2.99 $
+                            </p>
+                        </td>
+                        <td>
+                            <button class="btn btn-md rounded-circle bg-light border mt-4">
+                                <i class="fa fa-times text-danger"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mt-5">
+            <input type="text" class="border-0 border-bottom rounded me-5 py-3 mb-4" placeholder="Coupon Code" style="outline:none;border-bottom:2px solid #000;">
+            <button class="cart-button px-4 py-3" type="button">Apply Coupon</button>
+        </div>
+        <div class="row g-4 justify-content-end">
+            <div class="col-8"></div>
+            <div class="col-sm-8 col-md-7 col-lg-6 col-xl-4">
+                <div class="bg-light rounded">
+                    <div class="p-4">
+                        <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
+                        <div class="d-flex justify-content-between mb-4">
+                            <h5 class="mb-0 me-4">Subtotal:</h5>
+                            <p class="mb-0">
+                                $96.00
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="mb-0 me-4">Shipping</h5>
+                            <div class="">
+                                <p class="mb-0">
+                                    Flat rate: $3.00
+                                </p>
+                            </div>
+                        </div>
+                        <p class="mb-0 text-end">
+                            Shipping to Ukraine.
+                        </p>
+                    </div>
+                    <div class="py-4 mb-4 border-top border-bottom d-flex justify-content-between">
+                        <h5 class="mb-0 ps-4 me-4">Total</h5>
+                        <p class="mb-0 pe-4">
+                            $99.00
+                        </p>
+                    </div>
+                    <button class="cart-button px-4 py-3 text-uppercase mb-4 ms-4" type="button">Proceed Checkout</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Cart section End -->
+    <!-- footer section -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <div class="logo me-auto">
+                            <h1><a href="#" class="text-white" style="text-decoration:none;">FEED-ME</a></h1>
+                            <!-- Uncomment below if you prefer to use an image logo -->
+                            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                        </div>
+                        <p>
+                            P.M.B1075 Enugu <br>
+                            Lagos, Nigeria <br><br>
+                            <strong>Phone:</strong> +234-964-528-52<br>
+                            <strong>Email:</strong> FEED-ME@gmail.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="fas fa-arrow-right"></i> <a href="#">Home</a></li>
+                            <li><i class="fas fa-arrow-right"></i> <a href="#">About us</a></li>
+                            <li><i class="fas fa-arrow-right"></i> <a href="#">Services</a></li>
+                            <li><i class="fas fa-arrow-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="fas fa-arrow-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="fas fa-arrow-right"></i> <a href="#">Express Shipping</a></li>
+                            <li><i class="fas fa-arrow-right"></i> <a href="#">World Class</a></li>
+                            <li><i class="fas fa-arrow-right"></i> <a href="#">Book a table</a></li>
+                            <li><i class="fas fa-arrow-right"></i> <a href="#">Marketing</a></li>
+                            <li><i class="fas fa-arrow-right"></i> <a href="#">Eat alone</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Join Our Newsletter</h4>
+                        <p>
+                            Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+                        </p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Flattern</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a href="#">HenryKc</a>
+                </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0 margin-bottom">
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fas fa-youtube"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+</body>
+
+</html>
